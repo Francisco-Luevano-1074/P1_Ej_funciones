@@ -9,9 +9,12 @@ void saludar(String nombre) {
 }
 void main() {
   // Llamada a la función para calcular el área de un triángulo
+  print('Francisco Javier Luévano Alvarado. 22308051281074');
+  print('Llamando a la función calcularAreaTriangulo');
   double area = calcularAreaTriangulo(10.0, 5.0);
   print('El área del triángulo es: $area');
 
   // Llamada a la función para saludar
+  print('Llamando a la función saludar');
   saludar('Ana');
 }
